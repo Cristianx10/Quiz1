@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+//Trabajo realizado por: Cristian Salguero Y Carolina Cucuñame
+
 public class MainActivity extends AppCompatActivity {
 
 
