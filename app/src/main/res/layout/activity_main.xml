@@ -35,8 +35,8 @@
         android:background="#1f4a74"
         android:hint="@string/nameuser"
         android:inputType="text"
-        android:textColor="#ffffff"
         android:padding="10dp"
+        android:textColor="#ffffff"
         android:textColorHint="#ccc" />
 
     <EditText
@@ -48,10 +48,10 @@
         android:layout_marginTop="20dp"
         android:background="#1f4a74"
         android:hint="@string/password"
-        android:inputType="number"
+        android:inputType="numberPassword"
         android:padding="10dp"
-        android:textColorHint="#ccc"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:textColorHint="#ccc" />
 
     <TextView
         android:id="@+id/tv_confirmar"
