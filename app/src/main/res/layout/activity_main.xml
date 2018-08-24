@@ -25,7 +25,7 @@
         tools:text="@string/saludo" />
 
     <EditText
-        android:id="@+id/et_masa"
+        android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -38,7 +38,7 @@
         android:textColorHint="#ccc" />
 
     <EditText
-        android:id="@+id/et_altura"
+        android:id="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -51,6 +51,7 @@
         android:textColorHint="#ccc" />
 
     <TextView
+        android:id="@+id/tv_confirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -59,7 +60,7 @@
         tools:text="@string/informacion" />
 
     <Button
-        android:id="@+id/btn_calcular"
+        android:id="@+id/btn_ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#1f4a74"

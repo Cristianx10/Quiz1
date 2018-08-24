@@ -10,12 +10,13 @@
 
 
     <TextView
+        android:id="@+id/tv_titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:text="Hola ADMINISTRADOR"
         android:textAlignment="center"
-        android:textSize="18dp"
-      android:text="Hola ADMINISTRADOR"/>
+        android:textSize="18dp" />
 
 
 
@@ -29,10 +30,10 @@
         android:text="Este perfil se encuentra bajo construccion. Proximamente disfruta del mejor contenido en esta actividad" />
 
     <Button
-        android:id="@+id/btn_calcular"
+        android:id="@+id/btn_cerrar"
         android:layout_width="match_parent"
-        android:layout_marginHorizontal="75dp"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
         android:layout_marginTop="100dp"
         android:background="#1f4a74"
         android:text="CERRAR SESION"
