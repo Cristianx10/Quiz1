@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#DDDCD8"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+      android:text="Hola ADMINISTRADOR"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Este perfil se encuentra bajo construccion. Proximamente disfruta del mejor contenido en esta actividad" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#1f4a74"
+        android:text="CERRAR SESION"
+        android:textColor="#ffffff" />
+
+
+
+</LinearLayout>
