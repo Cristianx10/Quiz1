@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#DDDCD8"
+    android:background="#5381E8"
     android:gravity="center_horizontal">
 
 
@@ -16,18 +16,20 @@
         android:padding="10dp"
         android:text="Hola ADMINISTRADOR"
         android:textAlignment="center"
+        android:textColor="#ffffff"
         android:textSize="18dp" />
-
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="150dp"
+        android:padding="10dp"
+        android:text="@string/bienvenidaMSM"
         android:textAlignment="center"
-        android:textSize="18dp"
-        android:text="Este perfil se encuentra bajo construccion. Proximamente disfruta del mejor contenido en esta actividad" />
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
 
     <Button
         android:id="@+id/btn_cerrar"

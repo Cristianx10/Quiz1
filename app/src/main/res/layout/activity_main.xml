@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#DDDCD8"
+    android:background="#5381E8"
     android:gravity="center_horizontal">
 
 
@@ -20,9 +20,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:text="@string/saludo"
         android:textAlignment="center"
-        android:textSize="18dp"
-        tools:text="@string/saludo" />
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
 
     <EditText
         android:id="@+id/et_name"
@@ -34,6 +35,7 @@
         android:background="#1f4a74"
         android:hint="@string/nameuser"
         android:inputType="text"
+        android:textColor="#ffffff"
         android:padding="10dp"
         android:textColorHint="#ccc" />
 
@@ -48,22 +50,27 @@
         android:hint="@string/password"
         android:inputType="number"
         android:padding="10dp"
-        android:textColorHint="#ccc" />
+        android:textColorHint="#ccc"
+        android:textColor="#ffffff"/>
 
     <TextView
         android:id="@+id/tv_confirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:padding="10dp"
+        android:text="@string/informacion"
         android:textAlignment="center"
-        android:textSize="18dp"
-        tools:text="@string/informacion" />
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
 
     <Button
         android:id="@+id/btn_ingresar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1f4a74"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
         android:text="INGRESAR"
         android:textColor="#ffffff" />
 
