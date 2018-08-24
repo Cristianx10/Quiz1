@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string name="nameuser">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="saludo">Bienvenido al sistema de login de otro nivel</string>
+    <string name="informacion">Ingrese sus datos por favor</string>
+</resources>
